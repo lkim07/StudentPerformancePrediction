@@ -1,6 +1,6 @@
 import sys
 # import logging
-from logger import logging # ::: == same as below
+# from logger import logging # ::: == same as below
 # from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
@@ -27,3 +27,4 @@ class CustomException(Exception):
 #         logging.info("Devided by Zero")
 #         raise CustomException(e, sys)
 
+# pip install -r requirements.txt
