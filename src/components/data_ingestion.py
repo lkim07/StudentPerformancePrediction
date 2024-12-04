@@ -32,7 +32,7 @@ class DataIngestion:
 
             train_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
 
-            test_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
+            test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
 
             logging.info("Ingestion of the data is completed")
 
@@ -48,4 +48,5 @@ if __name__ == "__main__":
     obj=DataIngestion()
     obj.initiate_data_ingestion()
 
-# python src/components/data_ingestion.py
+# (C:\Users\lkim0\Downloads\mlproject\mlproject1\venv) PS C:\Users\lkim0\Downloads\mlproject\mlproject1>
+# >> python -m src.components.data_ingestion
