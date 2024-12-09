@@ -47,3 +47,5 @@ if __name__=="__main__":
 
 # In python.config file, first application is the app's name on the top, application. 
 # next to the :, application is this file name. 
+
+# delete app.py to deploy on AWS.
