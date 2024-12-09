@@ -34,7 +34,7 @@ author_email='lkim0731@gmail.com',
 packages=find_packages(),
 # install_requires=['pandas', 'numpy', 'seaborn']
 install_requires=get_requirements('requirements.txt')
-
+    
 )
 
 # pip install -r .\requirements.txt
