@@ -25,10 +25,15 @@ To deploy this program in AWS, I made settings in IAM User, ECR repository, and 
 Connect github and AWS by using Github actions(yaml file) and Docker setted up in EC2 instance. 
 
 # The website looking:
-'Index page'
+
+_Index page_
+
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/abb4fd4c-c9b5-4437-b5cb-e8c81f119557">
 
-'home page'
+
+
+_home page_
+
 <img width="913" alt="image" src="https://github.com/user-attachments/assets/922862e5-6aa0-4bbe-ba87-9a0c25881615">
 
 
